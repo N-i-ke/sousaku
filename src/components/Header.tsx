@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/logo (2).svg'; // パスを調整してください
 
 const Header: React.FC = () => {
   return (
@@ -6,7 +7,7 @@ const Header: React.FC = () => {
       <div className="header__inner">
         <h1 className="title">
           <a href="">
-            <img src="img/logo (2).svg" alt="Logo" />
+          <img src={logo} alt="Logo" />
           </a>
         </h1>
         <nav>

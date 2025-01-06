@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-image: url(../img/mainvisual-pc.jpg);
+  background-image: url(./assets/mainvisual-pc.jpg);
   width: 100%;
   height: 100vh;
   background-size: cover;

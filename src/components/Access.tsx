@@ -8,7 +8,6 @@ const Access: React.FC = () => {
         width="600"
         height="450"
         style={{ border: 0 }}
-        allowFullScreen=""
         loading="lazy"
       ></iframe>
     </section>
