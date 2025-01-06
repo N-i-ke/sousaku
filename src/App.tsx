@@ -6,6 +6,7 @@ import Product2 from './components/Product2';
 import Access from './components/Access';
 import Footer from './components/Footer';
 import './App.css';
+import './Reset.css';
 
 const App: React.FC = () => {
   return (
