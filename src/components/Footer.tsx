@@ -1,4 +1,5 @@
 import React from 'react';
+import FooterLogo from '../assets/logo (2).svg';
 
 const Footer: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="right">
           <div className="logo">
-            <img src="img/logo (2).svg" alt="Logo" />
+            <img src={FooterLogo} alt="Logo" />
           </div>
           <p className="info">
             〒１０６-００３２ 東京都港区六本木５丁目××××× <br />

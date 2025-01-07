@@ -1,4 +1,5 @@
 import React from 'react';
+import ProductPicture from '../assets/products2.jpg';
 
 const Product2: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const Product2: React.FC = () => {
           <p className="text">Science & Technology</p>
         </div>
         <div className="image">
-          <img src="img/products2.jpg" alt="Product 2" />
+          <img src={ProductPicture} alt="Product 2" />
           <p className="text">テキストテキスト<br />テキストテキスト</p>
         </div>
       </div>

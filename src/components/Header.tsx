@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo (2).svg'; // パスを調整してください
+import logo from '../assets/logo (2).svg';
 
 const Header: React.FC = () => {
   return (
